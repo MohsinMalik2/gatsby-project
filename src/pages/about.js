@@ -1,9 +1,8 @@
 import React from 'react';
-import {Link} from 'gatsby'
+import Layout from '../components/layout'
 export default function about() {
-  return <div>
-      <h1>About Me</h1>
-      <p>This ia a bout page to get to know me</p>
-      <p> <Link to='/'>Click me</Link>  to go to home page</p>
-  </div>;
+  return <Layout>
+  <h1>Hello About</h1>
+  <h3>Its me about ou know me! don;t you?</h3>
+</Layout>;
 }
